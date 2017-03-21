@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 using MVCDemo.Models;
+using Microsoft.AspNetCore.Mvc;
+
 namespace MVCDemo.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         // GET: Home
         public ActionResult Index()
